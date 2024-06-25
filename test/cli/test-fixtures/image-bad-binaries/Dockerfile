@@ -1,4 +1,4 @@
-FROM debian:sid@sha256:bee393b48f83fdeb978ce68abb9dc955d6398b984fca88b52a09dceb45ac74b5
+FROM debian:sid@sha256:51f59d258850c5ec72f775f11334ec2067c3df6b5a09f1e790eb418d837fb6ea
 ADD sources.list /etc/apt/sources.list.d/sources.list
 RUN apt update -y && apt install -y dpkg-dev
 # this as a "macho-invalid" directory which is useful for testing
