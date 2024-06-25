@@ -1,4 +1,4 @@
-FROM alpine@sha256:d9a7354e3845ea8466bb00b22224d9116b183e594527fb5b6c3d30bc01a20378
+FROM alpine@sha256:b89d9c93e9ed3597455c90a0b88a8bbb5cb7188438f70953fede212a0c4394e0
 
 # we keep these unpinned so that if alpine
 # changes our integration tests can adapt
