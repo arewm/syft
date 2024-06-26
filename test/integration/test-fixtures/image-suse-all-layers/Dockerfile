@@ -1,2 +1,2 @@
-FROM registry.suse.com/suse/sle15:15.3.17.20.20@sha256:fd657ecbab5ca564d6933e887f6ae8542a9398e6a4b399f352ce10c3a24afc64
+FROM registry.suse.com/suse/sle15:15.3.17.20.20@sha256:9f9e442203676d9a67aad83da5f0b03f77b8584c19527f654822d39590db1839
 RUN zypper in -y wget
