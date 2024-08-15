@@ -1,4 +1,4 @@
-FROM fedora:37@sha256:3f987b7657e944cf87a129cc262982d4f80e38bd98f7db313ccaf90ca7069dd2
+FROM fedora:41@sha256:be4799339fa9f6e733c135237b3ff598f69f57ab71460ad79be0d8f21b1aed2a
 
 RUN dnf install 'dnf-command(download)' cpio xz -y
 # https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Everything/x86_64/os/Packages/k/kernel-6.0.7-301.fc37.x86_64.rpm
